@@ -82,13 +82,27 @@ class WcapiAPIViewQR(APIView):
         content = response.content
         return Response(content)
 
-class WcapiAPIViewCheckOrder(APIView):
-    def post(self,request):
-        return Response({'user': 'pass'})
+class WcapiAPIViewCheckLogin(APIView):
+    def get(self, request):
+        lst = Logins.objects.all().values()
+        return Response({'logins': list(lst)})
 
-class WcapiAPIViewOrder(APIView):
-    def post(self,request):
-        return Response({'user': 'pass'})
+    def post(self, request):
+        post_new = Logins.objects.create(
+            user_id=request.data['user_id'],
+            login=request.data['login'],
+            password=request.data['password'],
+        )
+        return Response({'login_post': model_to_dict(post_new)})
+
+    def put(self,request):
+        data = Logins.objects.get(user_id=request.data['user_id'])
+        data.login, data.password = \
+            request.data['login'],request.data['password']
+        data.save()
+        return Response({request.data['user_id']: 'edit'})
+
+
 
 
 

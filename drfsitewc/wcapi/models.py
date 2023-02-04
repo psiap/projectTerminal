@@ -1,5 +1,11 @@
 from django.db import models
 
+class Logins(models.Model):
+    user_id = models.CharField(max_length=255)
+    login = models.CharField(max_length=255)
+    password = models.CharField(max_length=255)
+    date_time = models.DateTimeField(auto_now_add=True)
+
 class Statistics(models.Model):
     user_id = models.CharField(max_length=255)
     total_received = models.CharField(max_length=255)
