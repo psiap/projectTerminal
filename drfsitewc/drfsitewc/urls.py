@@ -25,5 +25,5 @@ urlpatterns = [
     path('api/v1/settings', WcapiAPIViewSettings.as_view()),
     path('api/v1/qr', WcapiAPIViewQR.as_view()),
     path('api/v1/login', WcapiAPIViewCheckLogin.as_view()),
-
+    path('api/v1/auth', WcapiAPIViewCheckAuth.as_view()),
 ]

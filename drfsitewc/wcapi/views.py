@@ -103,7 +103,13 @@ class WcapiAPIViewCheckLogin(APIView):
         return Response({request.data['user_id']: 'edit'})
 
 
-
+class WcapiAPIViewCheckAuth(APIView):
+    def post(self, request):
+        data = Logins.objects.get(user_id=request.data['user_id'],login=request.data['login'],password=request.data['password'])
+        if data:
+            return Response({'login': True})
+        else:
+            return Response({'login': False})
 
 
 
