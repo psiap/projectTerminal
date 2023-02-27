@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a67dcc34-6bf0-4c30-bb35-41efa940fcb9" name="Changes" comment="* AddLogins">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewc/drfsitewc/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/drfsitewc/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewc/wcapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/wcapi/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="a67dcc34-6bf0-4c30-bb35-41efa940fcb9" name="Changes" comment="* AddLoginsAuth" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +79,7 @@
       <workItem from="1675958175857" duration="601000" />
       <workItem from="1676282519968" duration="762000" />
       <workItem from="1676283975032" duration="293000" />
-      <workItem from="1677492843206" duration="297000" />
+      <workItem from="1677492843206" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="* First push">
       <created>1675066217815</created>
@@ -106,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675508108876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="* AddLoginsAuth">
+      <created>1677493157431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493157431</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +130,8 @@
     <MESSAGE value="* First push" />
     <MESSAGE value="* Edit req" />
     <MESSAGE value="* AddLogins" />
-    <option name="LAST_COMMIT_MESSAGE" value="* AddLogins" />
+    <MESSAGE value="* AddLoginsAuth" />
+    <option name="LAST_COMMIT_MESSAGE" value="* AddLoginsAuth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
