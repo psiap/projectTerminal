@@ -114,6 +114,23 @@ class WcapiAPIViewCheckAuth(APIView):
         except:
             return Response({'login': False})
 
+class WcapiAPIViewCheckOrder(APIView):
+    def post(self, request):
+        ADDRESS = request.data['ADDRESS']
+        COIN = request.data['COIN']
+        url = f'https://api.blockchair.com/{COIN}/dashboards/address/{ADDRESS}'
+        response = requests.get(url)
 
+        if response.status_code == 200:
+            try:
+                data = response.json()
+                received_value = data['data'][ADDRESS]['address']['received_usd']
+                return Response({'ADDRESS': ADDRESS,
+                                 'received_value': received_value,
+                                 'COIN': COIN})
+            except Exception as E:
+                return Response({'error_p': f"{E}"})
+        else:
+            return Response({'error': response.status_code})
 
 
