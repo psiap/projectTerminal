@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a67dcc34-6bf0-4c30-bb35-41efa940fcb9" name="Changes" comment="* AddLoginsAuth">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="a67dcc34-6bf0-4c30-bb35-41efa940fcb9" name="Changes" comment="* AddTranzaktion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewc/drfsitewc/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/drfsitewc/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewc/wcapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/wcapi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +121,10 @@
       <workItem from="1677492843206" duration="658000" />
       <workItem from="1677500130936" duration="349000" />
       <workItem from="1677535407698" duration="92000" />
-      <workItem from="1677685479989" duration="988000" />
+      <workItem from="1677685479989" duration="4397000" />
+      <workItem from="1677691647207" duration="8000" />
+      <workItem from="1678122591584" duration="819000" />
+      <workItem from="1678124309610" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="* First push">
       <created>1675066217815</created>
@@ -158,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677686478349</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="* AddTranzaktion">
+      <created>1677686494282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677686494282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +190,8 @@
     <MESSAGE value="* Edit req" />
     <MESSAGE value="* AddLogins" />
     <MESSAGE value="* AddLoginsAuth" />
-    <option name="LAST_COMMIT_MESSAGE" value="* AddLoginsAuth" />
+    <MESSAGE value="* AddTranzaktion" />
+    <option name="LAST_COMMIT_MESSAGE" value="* AddTranzaktion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -194,6 +205,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/projectTerminal$test.coverage" NAME="test Coverage Results" MODIFIED="1677686068167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/projectTerminal$test.coverage" NAME="test Coverage Results" MODIFIED="1678122798161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

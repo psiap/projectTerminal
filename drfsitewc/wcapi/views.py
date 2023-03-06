@@ -133,4 +133,25 @@ class WcapiAPIViewCheckOrder(APIView):
         else:
             return Response({'error': response.status_code})
 
+class WcapiAPIViewConvectorValut(APIView):
+    def post(self, request):
+        api_key = "A___nBsJDbXc1imJ45CjYox9BBTHbaZ8"
+        COIN = request.data['COIN']
+        usd_amount  = request.data['usd_amount']
+        response = requests.get(f"https://api.blockchair.com/{COIN}/stats?apikey={api_key}")
+        if response.status_code == 200:
+            data = response.json()
+            btc_price = data["data"]["market_price_usd"]
+
+            # Конвертируйте 100 долларов в BTC
+
+            btc_amount = float(usd_amount) / btc_price
+
+            return Response({COIN: btc_amount,
+                             'usd_amount': usd_amount,
+                             'COIN': COIN})
+        else:
+            return Response({'error': response.status_code})
+
+
 
