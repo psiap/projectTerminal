@@ -29,6 +29,8 @@ class History(models.Model):
     payment_id = models.CharField(max_length=255)
     date_tranz = models.CharField(max_length=255)
     value_tranz = models.CharField(max_length=255)
+    month = models.CharField(max_length=255,default="dec")
+
     date_time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

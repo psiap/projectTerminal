@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a67dcc34-6bf0-4c30-bb35-41efa940fcb9" name="Changes" comment="* AddTranzaktion">
+    <list default="true" id="a67dcc34-6bf0-4c30-bb35-41efa940fcb9" name="Changes" comment="* AddCon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewc/drfsitewc/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/drfsitewc/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewc/wcapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/wcapi/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewc/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewc/wcapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewc/wcapi/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,9 @@
       <workItem from="1677685479989" duration="4397000" />
       <workItem from="1677691647207" duration="8000" />
       <workItem from="1678122591584" duration="819000" />
-      <workItem from="1678124309610" duration="2763000" />
+      <workItem from="1678124309610" duration="2794000" />
+      <workItem from="1678127407200" duration="257000" />
+      <workItem from="1678174184575" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="* First push">
       <created>1675066217815</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677686494282</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="* AddCon">
+      <created>1678127083314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678127083314</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +199,8 @@
     <MESSAGE value="* AddLogins" />
     <MESSAGE value="* AddLoginsAuth" />
     <MESSAGE value="* AddTranzaktion" />
-    <option name="LAST_COMMIT_MESSAGE" value="* AddTranzaktion" />
+    <MESSAGE value="* AddCon" />
+    <option name="LAST_COMMIT_MESSAGE" value="* AddCon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
